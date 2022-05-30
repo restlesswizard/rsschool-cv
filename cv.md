@@ -1,3 +1,5 @@
+![My photo](assets/images/myphoto.png)
+
 # Nikita Pohabov
 
 ## Junior Front-end Developer
