@@ -11,6 +11,7 @@
 * __Telegram, Discord__: Woundseeker
 
 ---
+
 ## Shoirt Bio
 I'm 28 years old OHS (Occupational Health & Safety) specialist. I always wanted to change my profession to front-end developer, for it was always my passion. Doing self-stydy, giving all my free time for it. Wish to work at interesting projects and improve my skills in order to make elegant working solutions.
 
@@ -19,7 +20,9 @@ __My strengths:__
 + fast learning;
 + team worker;
 + aimed to solve task untill the end.
+
 ---
+
 ## Skills
 
 + HTML/CSS(BEM)
@@ -27,7 +30,9 @@ __My strengths:__
 + Git
 + Adobe Photoshop
 + _This list will be expanded by time_
+
 ---
+
 ## Code Example
 
 ### Example One
@@ -57,17 +62,23 @@ function openOrSenior(data) {
   return result;
 }
 ```
+
 ---
+
 ## Experience
 + 3+ years of OHS Specialist in various industries: metalworking, foundry, trade, pharmaceuticals (at the moment);
 + This сurriculum vitae;
 + _wish to get real experience at front-end_.
+
 ---
+
 ## Education
 + __University:__ Kurgan State University, Technosphere Safety (2016);
 + [HTML Academy](https://htmlacademy.ru);
 + [Code Basics (HTML, CSS, JavaScript)](https://ru.code-basics.com).
+
 ---
+
 ## English Proficiency
 + __Russian:__ native speaker;
 + __English:__ B2
