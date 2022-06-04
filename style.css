@@ -1,3 +1,7 @@
-.text {
-	font-size: 36px;
+@import url(./css/variables.css);
+@import url(./css/header.css);
+
+body {
+	margin: 0;
+	padding: 0;
 }
