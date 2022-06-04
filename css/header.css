@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 400px;
+	width: 100%;
+	background-color: blue;
+}
+
+.header__bg-left {
+	background-color: var(--bg-1);
+	width: 20%;
+}
+
+.header__bg-right {
+	background-color: var(--bg-2);
+	flex-grow: 1;
+}
