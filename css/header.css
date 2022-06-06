@@ -32,4 +32,5 @@
 
 .contact-info {
 	background-color: #ebe300;
+	font-family: var(--heading-font);
 }

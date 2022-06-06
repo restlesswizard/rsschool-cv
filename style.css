@@ -1,8 +1,15 @@
+/* import variables file */
 @import url(./css/variables.css);
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/* import blocks styles */
 @import url(./css/menu.css);
 @import url(./css/header.css);
 
-
+/* common document style */
 body {
 	margin: auto;
 	padding: 0;
