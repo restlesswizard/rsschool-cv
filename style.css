@@ -1,5 +1,7 @@
 @import url(./css/variables.css);
+@import url(./css/menu.css);
 @import url(./css/header.css);
+
 
 body {
 	margin: auto;

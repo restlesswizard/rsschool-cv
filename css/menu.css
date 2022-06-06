@@ -1,0 +1,15 @@
+.menu {
+	height: 60px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAADpJREFUKFONzEsKADAIA9Hk/oe2WGjpR6OzfgzRy9hwBoAVnMhnCm6k4IUy+KEIhuiFKTqhRAuWyOEA/DwKCnfY+F8AAAAASUVORK5CYII=) repeat;
+	background-color: #ebe300;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+.menu__item {
+	text-decoration: none;
+	font-size: 16px;
+	flex-shrink: 1;
+}
