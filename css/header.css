@@ -13,7 +13,7 @@
 	border: 4px solid #ebe300;
 }
 
-.header__bg-left {
+/* .header__bg-left {
 	background-color: var(--bg-1);
 	width: 360px;
 	display: flex;
@@ -27,16 +27,12 @@
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
-}
+} */
 
 .contact-info {
 	margin-top: 64px;
 	background-color: #ebe300;
 	font-family: var(--heading-font);
-}
-
-.contact-info_mrgn {
-	margin-left: 40px;
 }
 
 .contacts {

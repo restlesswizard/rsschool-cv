@@ -1,0 +1,14 @@
+.bio {
+	display: flex;
+	width: 1080px;
+}
+
+.bio__right {
+	width: 720px;
+}
+
+.bio__heading {
+	background-color: aliceblue;
+}
+
+
