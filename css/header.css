@@ -27,10 +27,27 @@
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .contact-info {
+	margin-top: 64px;
 	background-color: #ebe300;
 	font-family: var(--heading-font);
+}
+
+.contact-info_mrgn {
+	margin-left: 40px;
+}
+
+.contacts {
+	margin-top: 12px;
+}
+
+.contacts__text {
+	font-size: 24px;
+	list-style-type: none;
+}
+
+.contacts__text:nth-child(n+1) {
+	margin-top: 16px;
 }
