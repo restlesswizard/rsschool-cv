@@ -1,0 +1,16 @@
+.code {
+	display: flex;
+	width: 1080px;
+}
+
+.code__left {
+	align-items: flex-end;
+}
+
+.code__right {
+	width: 720px;
+}
+
+.code__heading {
+	background-color: aliceblue;
+}

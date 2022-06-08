@@ -75,7 +75,41 @@
 					</div>
 				</div>
 			</div>
-			div.
+			<div class="code">
+				<div class="code__left left">
+					<h2 class="code__example-heading">Example One</h2>
+					<p class="code__example-desc">Task (codewars.com): write a function,
+						which gets an array of numbers and return the sum of all positive ones.</p>
+						<h2 class="code__example-heading">Example Two</h2>
+						<p class="code__example-desc">Task (codewars.com): write a function,
+							which gets an array of two elements (age, handicap(number)),
+							and categorizes a member if he's “Senior” (at least 55 years
+							old and have a handicap greater than 7) or “Open”.</p>
+				</div>
+				<div class="code__right right">
+					<h2 class="code__heading"><span class="content-mrgn">Code</span></h2>
+					<pre class="code__text content-mrgn">
+function positiveSum(arr) {
+	let sum = 0;
+	arr.map(function(arr) {
+		if (arr > 0) {
+			sum += arr;
+		}
+	})
+	return sum;
+}
+					</pre>
+					<pre class="code__text content-mrgn">
+function openOrSenior(data) {
+	let result = [];
+	data.map(function (data) {
+		(data[0]>=55 && data[1]>7) ? (result.push('Senior')):(result.push('Open'));
+	})
+	return result;
+}
+					</pre>
+				</div>
+			</div>
 		</main>
 	</div>
 </body>
