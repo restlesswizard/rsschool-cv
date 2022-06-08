@@ -3,6 +3,11 @@
 	width: 1080px;
 }
 
+.bio__left__strengths {
+	margin-top: auto;
+	margin-bottom: 0;
+}
+
 .bio__right {
 	width: 720px;
 }
