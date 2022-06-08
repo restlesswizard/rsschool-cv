@@ -9,6 +9,7 @@
 @import url(./css/menu.css);
 @import url(./css/header.css);
 @import url(./css/bio.css);
+@import url(./css/skills.css);
 
 /* common document style */
 body {
@@ -43,7 +44,7 @@ body {
 	font-family: var(--heading-font);
 }
 
-.right-mrgn {
+.content-mrgn {
 	margin-left: 40px;
 }
 
