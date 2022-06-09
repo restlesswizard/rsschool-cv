@@ -46,10 +46,43 @@ body {
 	font-family: var(--heading-font);
 }
 
-.content-mrgn {
-	margin-left: 40px;
-}
-
 .content-width {
 	width: 600px;
+}
+
+
+
+/* Common Modifiers */
+.wrapper {
+	display: flex;
+	width: 1080px;
+}
+
+.wrapper-left {
+	width: 360px;
+	background-color: aliceblue;
+}
+
+.wrapper-right {
+	width: 720px;
+	background-color: blue;
+}
+
+.heading-mrgn {
+	margin-left: 360px;
+	background-color: #ebe300;
+}
+
+.content-mrgn {
+	margin-left: 32px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+}
+
+.block__content {
+	display: flex;
+	flex-direction: row;
 }
