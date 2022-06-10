@@ -7,7 +7,7 @@
 
 /* import blocks styles */
 @import url(./css/menu.css);
-/* @import url(./css/header.css); */
+@import url(./css/header.css);
 @import url(./css/bio.css);
 @import url(./css/skills.css);
 @import url(./css/code.css);
@@ -25,35 +25,21 @@ body {
 }
 
 /* Modifiers */
-.left {
-	background-color: var(--bg-1);
-	width: 360px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
 
-.right {
-	background-color: var(--bg-2);
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-}
+/* .content-width {
+	width: 600px;
+} */
 
-.heading_style {
-	margin-left: 40px;
-	background-color: #ebe300;
+/* Common Modifiers */
+
+.font {
 	font-family: var(--heading-font);
 }
 
-.content-width {
-	width: 600px;
+.heading-bg {
+	background-color: #ebe300;
 }
 
-
-
-/* Common Modifiers */
 .wrapper, footer {
 	display: flex;
 	width: 1080px;
@@ -62,6 +48,10 @@ body {
 .wrapper-left {
 	width: 360px;
 	background-color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .wrapper-right {
@@ -71,7 +61,6 @@ body {
 
 .heading-mrgn {
 	margin-left: 360px;
-	background-color: #ebe300;
 }
 
 .content-mrgn {
@@ -93,4 +82,8 @@ body {
 .header-heading {
 	margin-left: 0;
 	margin-top: 48px;
+}
+
+.header-left {
+	justify-content: space-between;
 }
