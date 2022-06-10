@@ -7,7 +7,7 @@
 
 /* import blocks styles */
 @import url(./css/menu.css);
-@import url(./css/header.css);
+/* @import url(./css/header.css); */
 @import url(./css/bio.css);
 @import url(./css/skills.css);
 @import url(./css/code.css);
@@ -85,4 +85,11 @@ body {
 .block__content {
 	display: flex;
 	flex-direction: row;
+}
+
+/* Header Modifiers */
+
+.header-heading {
+	margin-left: 0;
+	margin-top: 48px;
 }
