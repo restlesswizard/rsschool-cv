@@ -12,6 +12,7 @@
 @import url(./css/skills.css);
 @import url(./css/code.css);
 @import url(./css/experience.css);
+@import url(./css/footer.css);
 
 /* common document style */
 body {
@@ -53,7 +54,7 @@ body {
 
 
 /* Common Modifiers */
-.wrapper {
+.wrapper, footer {
 	display: flex;
 	width: 1080px;
 }

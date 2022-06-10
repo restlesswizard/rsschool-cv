@@ -3,13 +3,13 @@
 	/* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAADpJREFUKFONzEsKADAIA9Hk/oe2WGjpR6OzfgzRy9hwBoAVnMhnCm6k4IUy+KEIhuiFKTqhRAuWyOEA/DwKCnfY+F8AAAAASUVORK5CYII=) repeat; */
 	background-color: #ebe300;
 	display: flex;
+	justify-content: flex-start;
 }
 
 .menu__list {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 16px 0 16px;
 }
 
 .menu__item {
@@ -22,6 +22,10 @@
 
 .menu__item:nth-child(n+1) {
 	margin-left: 32px;
+}
+
+.menu__item:first-child {
+	margin-left: 0;
 }
 
 .menu__item__link {
