@@ -14,3 +14,11 @@
 .code__heading {
 	background-color: aliceblue;
 }
+
+pre {
+	margin-top: 0;
+	background-color: #eee;
+	color: black;
+	padding: 16px;
+	border-radius: 16px;
+}
