@@ -18,6 +18,11 @@
 	flex-shrink: 1;
 	font-family: 'Montserrat', sans-serif;
 	list-style-type: none;
+	font-weight: 500;
+}
+
+.menu__item__link {
+	color: #404040;
 }
 
 .menu__item:nth-child(n+1) {

@@ -3,7 +3,6 @@
 	justify-content: space-between;
 	height: 400px;
 	width: 100%;
-	background-color: blue;
 }
 
 .avatar {
@@ -11,12 +10,6 @@
 	height: 200px;
 	border-radius: 50%;
 	border: 4px solid #ebe300;
-}
-
-.contact-info {
-	margin-top: 64px;
-	background-color: #ebe300;
-	font-family: var(--heading-font);
 }
 
 .contacts {

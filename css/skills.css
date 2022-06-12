@@ -1,17 +1,3 @@
-.skills {
-	display: flex;
-	width: 1080px;
-}
-
-.skills__right {
-	width: 720px;
-}
-
-.skills__heading {
-	background-color: aliceblue;
-}
-
-.skills__left__tips {
-	margin-top: auto;
-	margin-bottom: 0;
+.skills-desc {
+	margin: 0;
 }

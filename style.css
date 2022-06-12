@@ -22,19 +22,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #1c1c1c;
+	color: #e5e5e5;
+	font-family: var(--heading-font);
+}
+
+ul, p {
+	margin: 0;
+}
+
+h3, pre {
+	margin-top: 0;
 }
 
 /* Modifiers */
-
-/* .content-width {
-	width: 600px;
-} */
-
-/* Common Modifiers */
-
-.font {
-	font-family: var(--heading-font);
-}
 
 .heading-bg {
 	background-color: #ebe300;
@@ -47,20 +47,24 @@ body {
 
 .wrapper-left {
 	width: 360px;
-	background-color: aliceblue;
+	/* background-color: aliceblue; */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center; */
+	align-items: flex-start;
 }
 
 .wrapper-right {
 	width: 720px;
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 .heading-mrgn {
 	margin-left: 360px;
+}
+
+.heading-color {
+	color: var(--section-heading-color)
 }
 
 .content-mrgn {
@@ -86,4 +90,5 @@ body {
 
 .header-left {
 	justify-content: space-between;
+	align-items: center;
 }

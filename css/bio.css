@@ -1,19 +1,13 @@
-.bio {
-	display: flex;
-	width: 1080px;
+.bio-strengths-list {
+	list-style-type: '- ';
+	margin: 0;
+	padding-left: 12px;
 }
 
-.bio__left__strengths {
-	margin-top: auto;
-	margin-bottom: 0;
+.bio-strengths-list__item {
+	margin-top: 8px;
 }
 
-.bio__right {
-	width: 720px;
+.bio-text {
+	line-height: 1.5;
 }
-
-.bio__heading {
-	background-color: aliceblue;
-}
-
-
