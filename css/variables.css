@@ -1,6 +1,24 @@
 :root {
-	--bg-1: #404040;
-	--bg-2: #292929;
-	--heading-font: 'Montserrat', sans-serif;
-	--section-heading-color: #1f1f1f;
+	/* Color palette */
+	--color-bg: #1c1c1c;
+	--color-bg-code: #eee;
+	--color-highlight: #ebe300;
+	--color-menu-underline: #404040;
+	--color-text: #e5e5e5;
+	--color-text-heading: #1f1f1f;
+	--color-text-menu: #404040;
+	--color-text-code: #000;
+
+	/* Width/Height */
+	--document-width: 1080px;
+	--left-part-width: 360px;
+	--right-part-width: 720px;
+	--header-height: 400px;
+
+	/* Padding/Margin */
+	--footer-padding: 32px 0;
+	--content-margin: 32px;
+
+	/* Font */
+	--font: 'Montserrat', sans-serif;
 }
