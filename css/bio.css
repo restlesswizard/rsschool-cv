@@ -1,13 +1,7 @@
-.bio-strengths-list {
-	list-style-type: '- ';
-	margin: 0;
-	padding-left: 12px;
-}
-
-.bio-strengths-list__item {
+.bio-text {
 	margin-top: 8px;
 }
 
-.bio-text {
-	line-height: 1.5;
+.bio-text:first-child {
+	margin-top: 0;
 }
