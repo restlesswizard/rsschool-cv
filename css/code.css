@@ -1,0 +1,11 @@
+.code {
+	display: flex;
+}
+
+pre {
+	margin-top: 0;
+	background-color: var(--color-bg-code);
+	color: var(--color-text-code);
+	padding: 16px;
+	border-radius: 16px;
+}
