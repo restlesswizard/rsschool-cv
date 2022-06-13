@@ -5,11 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
-/* import blocks styles */
+/* import custom blocks styles */
 @import url(./css/menu.css);
 @import url(./css/header.css);
-@import url(./css/bio.css);
-@import url(./css/skills.css);
 @import url(./css/code.css);
 @import url(./css/experience.css);
 @import url(./css/footer.css);
@@ -18,17 +16,17 @@
 body {
 	margin: auto;
 	padding: 0;
-	width: 1080px;
+	width: var(--document-width);
 	display: flex;
 	flex-direction: column;
-	background-color: #1c1c1c;
-	color: #e5e5e5;
-	font-family: var(--heading-font);
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-family: var(--font);
 }
 
 a {
 	text-decoration: none;
-	color: #ebe300;
+	color: var(--color-highlight);
 }
 
 p {
@@ -58,26 +56,23 @@ h3 {
 /* Modifiers */
 
 .heading-bg {
-	background-color: #ebe300;
+	background-color: var(--color-highlight);
 }
 
 .wrapper, footer {
 	display: flex;
-	width: 1080px;
+	width: var(--document-width);
 }
 
 .wrapper-left {
-	width: 360px;
-	/* background-color: aliceblue; */
+	width: var(--left-part-width);
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: flex-start;
 }
 
 .wrapper-right {
-	width: 720px;
-	/* background-color: blue; */
+	width: var(--right-part-width);
 }
 
 .list {
@@ -107,11 +102,11 @@ h3 {
 }
 
 .heading-color {
-	color: var(--section-heading-color)
+	color: var(--color-text-heading)
 }
 
 .content-mrgn {
-	margin-left: 32px;
+	margin-left: var(--content-margin);
 }
 
 .block {
@@ -124,12 +119,6 @@ h3 {
 	flex-direction: row;
 }
 
-.tooltip {
-	position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
 /* Header Modifiers */
 
 .header-heading {
@@ -140,4 +129,8 @@ h3 {
 .header-left {
 	justify-content: space-between;
 	align-items: center;
+}
+
+.skills-desc {
+	margin: 0;
 }

@@ -1,24 +1,11 @@
 .code {
 	display: flex;
-	width: 1080px;
-}
-
-.code__left {
-	align-items: flex-end;
-}
-
-.code__right {
-	width: 720px;
-}
-
-.code__heading {
-	background-color: aliceblue;
 }
 
 pre {
 	margin-top: 0;
-	background-color: #eee;
-	color: black;
+	background-color: var(--color-bg-code);
+	color: var(--color-text-code);
 	padding: 16px;
 	border-radius: 16px;
 }
