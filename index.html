@@ -5,9 +5,264 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>CV Nikita Pohabov</title>
 </head>
 <body>
-	<p class="text">Some random weird stuff</p>
+	<nav class="menu">
+		<ul class="menu__list content-mrgn">
+			<li class="menu__item">
+				<a href="#Contact" id="contact" class="menu__item__link">Contact Me</a>
+			</li>
+			<li class="menu__item">
+				<a href="#Bio" id="bio" class="menu__item__link">Bio</a>
+			</li>
+			<li class="menu__item">
+				<a href="#Skills" id="skills" class="menu__item__link">Skills</a>
+			</li>
+			<li class="menu__item">
+				<a href="#Code" id="code" class="menu__item__link">Code</a>
+			</li>
+			<li class="menu__item">
+				<a href="#Experience" id="experience" class="menu__item__link">Experience</a>
+			</li>
+			<li class="menu__item">
+				<a href="#Education" id="education" class="menu__item__link">Education</a>
+			</li>
+			<li class="menu__item">
+				<a href="#English" id="english" class="menu__item__link">English</a>
+			</li>
+		</ul>			
+	</nav>
+	<header class="wrapper">
+		<div class="block">
+			<div class="block__content">
+				<div class="wrapper-left header-left">
+					<img class="avatar" src="./assets/images/myphoto.png" alt="my photo">
+					<h1 class="name">Nikita Pohabov</h1>
+					<h2 class="vacancy">Junior Front-end Developer</h2>
+				</div>
+				<div class="wrapper-right font">
+					<h2 id="Contact" onclick="window.location.hash='contact'" class="heading-mrgn header-heading font heading-bg">
+						<span class="heading-color content-mrgn">Contact me</span>
+					</h2>
+					<ul class="contacts content-mrgn">
+						<li class="contacts__text">Phone: +7 992 422 4070</li>
+						<li class="contacts__text">E-m@il: erxme@yandex.ru</li>
+						<li class="contacts__text">Telegram: Woundseeker</li>
+						<li class="contacts__text">Discord: Woundseeker#7159</li>
+						<li class="contacts__text">
+							Discord(at <a href="https://discord.com/invite/QvEYg7EaQ4">RSSchool server</a>):
+							Woundseeker (@restlesswizard)
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="wrapper">
+			<section class="block">
+				<h2 id="Bio" onclick="window.location.hash='bio'" class="heading-mrgn heading-bg">
+					<span class="heading-color content-mrgn">Bio</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<h3>My strengths</h3>
+						<ul class="list">
+							<li class="list-item">stress-resistant</li>
+							<li class="list-item">fast learning</li>
+							<li class="list-item">team worker</li>
+							<li class="list-item">aimed to solve task untill the end</li>
+							<li class="list-item">able to understand and learn by own mistakes</li>
+						</ul>
+					</div>
+					<div class="wrapper-right">
+						<p class="text content-mrgn">I'm 28 years old OHS (Occupational Health & Safety) specialist.
+							I always wanted to change my profession to front-end developer,
+							for it was always my passion. Doing self-study, giving all my free time for it.
+						</p>
+						<p class="text content-mrgn">My goal is to become a high-class specialist,
+							who creates well-working awesome sites and apps, which helps people
+							to work, find and do exactly what they need, and in common, making
+							people's life and Internet experience useful and comfortable.
+						</p>
+						<p class="text content-mrgn">I wish to work at interesting projects and improve
+							my skills in order to make elegant working solutions.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<section class="block">
+				<h2 id="Skills" onclick="window.location.hash='skills'" class="heading-mrgn heading-bg">
+					<span class="heading-color content-mrgn">Skills</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<p class="skills-desc">
+							List of my skills will be expanded by time and practice.
+						</p>
+					</div>
+					<div class="wrapper-right">
+						<ul class="list content-mrgn">
+							<li class="list-item">HTML/CSS (Fundamentials)</li>
+							<li class="list-item">JavaScript (Fundamentials)</li>
+							<li class="list-item">Git (Fundamentials)</li>
+							<li class="list-item">Adobe Photoshop (Read/Make of layout)</li>
+							<li class="list-item">Figma (Read of layout)</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<section class="block">
+				<h2 id="Code" onclick="window.location.hash='code'" class="heading-mrgn font heading-bg">
+					<span class="heading-color content-mrgn">Code</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<h3>Example One</h3>
+						<p>Task (codewars.com): write a function,
+							which gets an array of numbers and return the sum of all positive ones.</p>
+					</div>
+					<div class="wrapper-right">
+						<pre class="content-mrgn">
+function positiveSum(arr) {
+let sum = 0;
+arr.map(function(arr) {
+	if (arr > 0) {
+		sum += arr;
+	}
+})
+return sum;
+}</pre>
+					</div>
+				</div>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<h3>Example Two</h3>
+						<p>Task (codewars.com): write a function,
+							which gets an array of two elements (age, handicap(number)),
+							and categorizes a member if he's “Senior” (at least 55 years
+							old and have a handicap greater than 7) or “Open”.</p>
+					</div>
+					<div class="wrapper-right">
+						<pre class="content-mrgn">
+function openOrSenior(data) {
+let result = [];
+data.map(function (data) {
+	(data[0]>=55 && data[1]>7) ? (result.push('Senior')):(result.push('Open'));
+})
+return result;
+}</pre>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<section class="block">
+				<h2 id="Experience" onclick="window.location.hash='experiance'" class="heading-mrgn heading-bg">
+					<span class="heading-color content-mrgn">Experience</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<p class="skills-desc">I wish to get real experience at front-end developing.</p>
+					</div>
+					<div class="wrapper-right">
+						<ul class="list content-mrgn">
+							<li class="list-item">3+ years of OHS Specialist in various industries:
+								metalworking, foundry, trade, pharmaceuticals (at the moment), which,
+								I believe, can be useful in order to make apps for OHS specialists;
+							</li>
+							<li class="list-item">This сurriculum vitae;</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<section class="block">
+				<h2 id="Education" onclick="window.location.hash='education'" class="heading-mrgn font heading-bg">
+					<span class="heading-color content-mrgn">Education</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<ul class="list">
+							<li class="list-item">
+								University: Kurgan State University, Technosphere Safety (2016), B.OHS;
+							</li>
+							<li class="list-item">
+								<a href="https://htmlacademy.ru">HTML Academy</a>;
+							</li>
+							<li class="list-item">
+								<a href="https://ru.code-basics.com">Code Basics</a> (HTML, CSS, JavaScript).
+							</li>
+						</ul>
+					</div>
+					<div class="wrapper-right">
+						<p class="text content-mrgn">My basic education is not specialized for front-end.
+							If it will be necessary, I will get an appropriate education.
+							In the meantime, I study front-end on my own and in RSSchool courses.</p>
+						<p class="text content-mrgn">In addition, my current experience at OHS
+							can be useful in making some apps to help OHS specialists.
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="wrapper">
+			<section class="block">
+				<h2 class="heading-mrgn font heading-bg" id="English" onclick="window.location.hash='english'">
+					<span class="heading-color content-mrgn">English</span>
+				</h2>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<ul class="list">
+							<li class="list-item">Russian: native speaker;</li>
+							<li class="list-item">English: B1.
+						</ul>
+					</div>
+					<div class="wrapper-right">
+						<p class="text content-mrgn">I began to study English language at 8 years old at the school,
+							and continue right now. Had many conversations with native
+							speakers via Skype and Discord;</p>
+						<p class="text content-mrgn">Also I helped to make educational materials for 7Daily learning
+							English language school.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<div class="footer-content-item">
+				<a href="https://vk.com/restless_wizard">
+					<img class="footer-img" src="./assets/images/svg/VK.com-logo.svg" alt="VK">
+				</a>
+			</div>
+			<div class="footer-content-item">
+				<a href="https://t.me/Woundseeker">
+					<img src="./assets/images/svg/Telegram_2019_Logo.svg" alt="Telegram" class="footer-img">
+				</a>
+			</div>
+			<div class="footer-content-item">
+				<a href="https://rs.school/js/">
+					<img src="./assets/images/svg/rs_school_js.svg" alt="RSSchool" class="footer-img-rsschool">
+				</a>
+			</div>
+			<div class="footer-content-item">
+				<a href="https://instagram.com/woundseeker">
+					<img src="./assets/images/svg/Instagram_logo_2016.svg" alt="Instagram" class="footer-img">
+				</a>
+			</div>
+			<div class="footer-content-item">
+				<a href="https://github.com/restlesswizard">
+					<img src="./assets/images/svg/Git_icon.svg" alt="GitHub" class="footer-img">
+				</a>
+			</div>
+		</div>
+		<p class="copyright">Site HTML/CSS &copy; Nikita Pohabov, 2022</p>
+	</footer>
 </body>
 </html>
