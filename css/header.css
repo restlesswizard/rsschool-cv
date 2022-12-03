@@ -1,7 +1,8 @@
-.header {
+header {
 	display: flex;
 	justify-content: space-between;
 	height: var(--header-height);
+	margin-top: 60px;
 }
 
 .avatar {
