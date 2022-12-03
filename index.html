@@ -158,6 +158,44 @@ return result;
 }</pre>
 					</div>
 				</div>
+				<div class="block__content">
+					<div class="wrapper-left">
+						<h3>Example Three</h3>
+						<p>Task RGB to HEX (codewars.com): write a function, that will get RGB
+							decimal values and will return its hexadecimal representation.
+						</p>
+						<p>Condition: RGB decimal values, passing into function, may be out 
+							of range 0 to 255.
+						</p>
+					</div>
+					<div class="wrapper-right">
+						<pre class="content-mrgn">
+function rgb(r, g, b) {
+	let decimals = Object.values(arguments);
+
+	let answer = ''
+
+	decimals.forEach(function(elem, index) {
+		if (elem &lt; 0) {
+			this[index] = 0;
+		} else if (elem > 255) {
+			this[index] = 255;
+		}
+	}, decimals) 
+
+	decimals.map((digit) => {
+		
+		if (digit &lt; 16) {
+			answer += '0' + digit.toString(16).toUpperCase();
+		} else {
+			answer += digit.toString(16).toUpperCase();
+		}
+	})
+
+	return answer
+}</pre>
+					</div>
+				</div>
 			</section>
 		</div>
 		<div class="wrapper">
@@ -198,6 +236,9 @@ return result;
 							<li class="list-item">
 								<a href="https://ru.code-basics.com">Code Basics</a> (HTML, CSS, JavaScript).
 							</li>
+							<li class="list-item">
+								RSSchool course (learning at the moment)
+							</li>
 						</ul>
 					</div>
 					<div class="wrapper-right">
@@ -226,7 +267,7 @@ return result;
 					<div class="wrapper-right">
 						<p class="text content-mrgn">I began to study English language at 8 years old at the school,
 							and continue right now. Had many conversations with native
-							speakers via Skype and Discord;</p>
+							speakers via Skype, Discord and personal meeting;</p>
 						<p class="text content-mrgn">Also I helped to make educational materials for 7Daily learning
 							English language school.</p>
 					</div>
