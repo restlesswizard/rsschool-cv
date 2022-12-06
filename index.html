@@ -178,12 +178,12 @@ function rgb(r, g, b) {
 	decimals.forEach(function(elem, index) {
 		if (elem &lt; 0) {
 			this[index] = 0;
-		} else if (elem > 255) {
+		} else if (elem &gt; 255) {
 			this[index] = 255;
 		}
 	}, decimals) 
 
-	decimals.map((digit) => {
+	decimals.map((digit) =&gt; {
 		
 		if (digit &lt; 16) {
 			answer += '0' + digit.toString(16).toUpperCase();
