@@ -12,6 +12,10 @@
 @import url(./css/footer.css);
 
 /* common document style */
+html {
+	scroll-behavior: smooth
+}
+
 body {
 	margin: auto;
 	padding: 0;
