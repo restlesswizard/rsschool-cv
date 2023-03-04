@@ -19,6 +19,14 @@ header {
 .contacts__text {
 	font-size: 22px;
 	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+.contacts__text > img {
+	width: 20px;
+	height: 20px;
+	padding-right: 8px;
 }
 
 .contacts__text:nth-child(n+1) {
