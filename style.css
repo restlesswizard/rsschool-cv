@@ -80,12 +80,28 @@ h3 {
 
 .list {
 	margin: 0;
-	padding-left: 12px;
+	padding-left: 0px;
 }
 
 .list-item {
 	margin-top: 8px;
 	margin-left: 8px;
+	display: flex;
+	align-items: center;
+}
+
+.list-item > img {
+	width: 32px;
+	height: 32px;
+	padding-right: 8px;
+}
+
+.list-item > a {
+	transition: .5s;
+}
+
+.list-item > a:hover {
+	color: red;
 }
 
 .list-item:first-child {
